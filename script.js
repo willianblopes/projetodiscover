@@ -6,11 +6,11 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/assets/avatar-light.png")
   } else {
-    img.setAttribute("src", "../assets/assets/avatar.png")
+    img.setAttribute("src", "./assets/assets/avatar.png")
   }
- /* if (html.classList.contains("light")) {
+  if (html.classList.contains("light")) {
     img.setAttribute("alt", "Willian Barreto1")
   } else {
     img.setAttribute("alt", "Willian")
-  }*/
+  }
 }
